@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build",
+        "type": "shell",
+        // "command": "colcon build --cmake-args '-DCMAKE_BUILD_TYPE=Debug'"
+        "command": "colcon build"
+      },
+      {
+        "label": "test",
+        "type": "shell",
+        "command": "colcon test && colcon test-result"
+      },
+      {
+        "label": "startup",
+        "type": "shell",
+        "command": "ros2 launch lab2_startup lab2.launch.py"
+      },
+    ]
+  }
+  
