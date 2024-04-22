@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-cd /home/ntcurran/Code/f1tenth_labs/f1tenth_lab3_template/f1fenth_gym
+cd /home/ntcurran/Code/f1tenth_labs/f1tenth_lab3_template/f1tenth_gym
 pip3 install -e .
 
 cd /home/ntcurran/Code/f1tenth_labs/f1tenth_lab3_template/f1tenth_gym_ros
